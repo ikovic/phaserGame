@@ -1,8 +1,8 @@
 import 'pixi';
 import 'p2';
-import 'phaser';
+import Phaser from 'phaser';
 
-const game = new Phaser.Game(800, 600, Phaser.AUTO, '', {preload: preload, create: create, update: update});
+const game = new Phaser.Game(800, 600, Phaser.AUTO, 'phaserWrapper', {preload: preload, create: create, update: update});
 
 function preload() {
 }
