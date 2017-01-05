@@ -1,0 +1,19 @@
+{
+  "name": "phaser-game",
+  "version": "1.0.0",
+  "description": "A sample project to test out the Phaser framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikovic/phaserGame.git"
+  },
+  "author": "ikovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikovic/phaserGame/issues"
+  },
+  "homepage": "https://github.com/ikovic/phaserGame#readme"
+}
