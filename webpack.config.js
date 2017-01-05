@@ -19,6 +19,13 @@ module.exports = {
   },
   module: {
     loaders: [
+      {
+        test: /\.(jpg|png)$/,
+        loader: 'url-loader',
+        options: {
+          limit: 100000
+        }
+      },
       {test: /pixi\.js/, loader: 'expose?PIXI'},
       {test: /phaser-split\.js$/, loader: 'expose?Phaser'},
       {test: /p2\.js/, loader: 'expose?p2'},
