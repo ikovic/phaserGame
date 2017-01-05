@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ikovic/phaserGame/issues"
   },
-  "homepage": "https://github.com/ikovic/phaserGame#readme"
+  "homepage": "https://github.com/ikovic/phaserGame#readme",
+  "devDependencies": {
+    "webpack": "^1.14.0"
+  }
 }
